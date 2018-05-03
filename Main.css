@@ -1,0 +1,25 @@
+@ charset "UTF-8";
+	
+	body{background-color:#white; font: 100% Georgia, Times, serif;}
+	h1{font:300% Arial, Helvetica, sans-serif; color: blue;}
+	h2{font: 175% Arial, Helvetica, sand-serif; color: red}
+	section#content h4{font:150% Arial; color:black; text-align:left}
+	p{color: black; font: 120% Arial}
+	section#content ul li{font: 90% Arial;list-style-type: square;list-style-position:outside}
+	#wrapper{width:1180px; margin: 0 auto; padding: 0 40px; text-align:left; position: relative;}
+	header#mainHeader{height:200px; background: url(Images/logo.png) no-repeat 25px center; padding: 0 75px 0 300px; position:relative;
+	border-bottom: 2px solid #7f7f7f; margin-bottom: 0px;}
+	header#mainHeader div{margin-top:16px;}
+	header#mainHeader ul{list-style: none; float: left;}
+	header#mainHeader ul li{float: left;}
+	header#mainHeader ul li a{color: blue; font-family: Arial, Helvetica; font-size: 17px; padding: 0 20px; border-right: 1px solid #000;
+	text-decoration: none; }
+	header#mainHeader ul li a:hover{color: #d3dded;}
+	section#content {float: left;width: 600px;padding: 0 10px 0 25px;margin-bottom: 10px;border-right: 1px solid #7f7f7f;}
+	section#content h3{font-size: 25px}
+	section#content h5{font-size: 20px; text-decoration: underline}
+	section#content ul li{font-size: 20px}
+	aside#events {font-size: 90%; float: right; width: 450px; margin-bottom: 20px}
+	footer#pageFooter {clear: both;border-top: 2px solid #7f7f7f;padding: 20px;}
+	footer#pageFooter p {text-align: center;font-style: italic;margin-bottom: 10px;color: #666;}
+
